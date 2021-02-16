@@ -46,3 +46,9 @@ $date2=date_create($datepilihan2);
 $diff=date_diff($date1,$date2);
 echo $diff->format("%a")."<br>";
 ?>
+
+2 Buah
+Alpukat
+Anggur
+
+
