@@ -51,4 +51,5 @@ echo $diff->format("%a")."<br>";
 Alpukat
 Anggur
 
+Push , pull , commit , checkout , branch , status , remote , add
 
