@@ -28,3 +28,4 @@ Anggur
 
 Push , pull , commit , checkout , branch , status , remote , add
 
+Gojek / Grab sederhana
