@@ -12,7 +12,7 @@
         (D) - Dari File Awal, tambahkan 1 buah datepicker dan button untuk menghitung perbedaan hari dari tgl yang dimasukkan pada datepicker dan tanggal hari ini
         (E) - Tambahkan 1 datepicker lagi dan ubah button menjadi menghitung perbedaan datepicker 1 dan date picker 2
         (F) - Dari File Awal, Tambahkan 2 buah 
-        (G) - Gabungan dari cabang E dan F
+        (G) - Gabungan dari cabang E dan F dan tambahkan apa yang kalian dapat dari latihan git sebelumnya dari https://learngitbranching.js.org/
         (H) - Gabungan dari G dan C
     
       (A)---(B)---(C)---(H)<br/>
