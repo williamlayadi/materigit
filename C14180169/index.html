@@ -1,9 +1,35 @@
 <html>
     <head>
         <title></title>
+        <script>  
+            function daysDifference() {  
+              var dateI1 = document.getElementById("dateInput1").value;  
+              var dateI2 = Date.now();  
+       
+              var date1 = new Date(dateI1);  
+              var date2 = new Date(dateI2);  
+        
+              var time_difference = date2.getTime() - date1.getTime();  
+       
+              var result = time_difference / (1000 * 60 * 60 * 24);  
+       
+              return document.getElementById("result").innerHTML =    
+                   result + " days between both dates. ";  
+             }  
+           </script>    
     </head>
     <body>
         <h3>NRP : C14180169</h3>
         <h3>Nama : Richard Hans Krisnajana</h3>
+        <br>
+        <p> 
+            <b>Masukkan Tanggal</b>   
+            <input type="date" id="dateInput1">   
+            <br> <br>          
+        
+            <button onclick="daysDifference()">Submit</button>   
+        </p>   
+        
+        <h3 style="color:32A80F" id="result"></h3>   
     </body>
 </html>
