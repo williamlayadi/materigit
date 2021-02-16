@@ -15,12 +15,12 @@
         (G) - Gabungan dari cabang E dan F dan tambahkan apa yang kalian dapat dari latihan git sebelumnya dari https://learngitbranching.js.org/
         (H) - Gabungan dari G dan C
     
-      (A)---(B)---(C)---(H)<br/>
-       |\         /     /<br/>
-       | \       /     /<br/>
-       |  (D)--(E)--(G)<br/>
-       |            /<br/>
-       '---(F)-----'<br/>
+      (A)---(B)---(C)---(H)
+       |\         /     /
+       | \       /     /
+       |  (D)--(E)--(G)
+       |            /
+       '---(F)-----'
 
 4. Lakukan push ke dalam Repository hasil dari Fork
 5. Lakukan permintaan pull request kepada saya.
