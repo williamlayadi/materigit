@@ -4,7 +4,7 @@
         <script>  
             function daysDifference() {  
               var dateI1 = document.getElementById("dateInput1").value;  
-              var dateI2 = Date.now();  
+              var dateI2 = document.getElementById("dateInput2").value;  
        
               var date1 = new Date(dateI1);  
               var date2 = new Date(dateI2);  
@@ -15,7 +15,7 @@
        
               return document.getElementById("result").innerHTML =    
                    result + " days between both dates. ";  
-             }  
+                         }  
            </script>    
     </head>
     <body>
@@ -23,9 +23,13 @@
         <h3>Nama : Richard Hans Krisnajana</h3>
         <br>
         <p> 
-            <b>Masukkan Tanggal</b>   
+            <b>Masukkan Tanggal 1</b>   
             <input type="date" id="dateInput1">   
-            <br> <br>          
+            <br> <br>    
+            
+            <b>Masukkan Tanggal 2</b>   
+            <input type="date" id="dateInput2">   
+            <br> <br>   
         
             <button onclick="daysDifference()">Submit</button>   
         </p>   
